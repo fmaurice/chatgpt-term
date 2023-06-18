@@ -1,8 +1,7 @@
 # chatgpt-term
-
-```console
+<pre>
 cat chatgpt.py | ./chatgpt.py "Create a readme.md file for the following python script, the title will be 'chatgpt-term'" > readme.md
-```
+</pre>
 
 This is a Python script that allows the user to chat with the GPT-3.5-turbo model from OpenAI via the command-line / terminal.
 
@@ -28,4 +27,8 @@ The script can be used in the following ways:
 4. `python chatgpt-term.py --debug-response` - This allows the user to see the complete response from the API.
 
 ## License
+<del>
 This script is provided under the [MIT License](https://github.com/ashpoul/chatgpt-term/blob/main/LICENSE).
+</del>
+
+This script is provided under the [GNU GPLv3 License](https://github.com/ashpoul/chatgpt-term/blob/main/LICENSE).
