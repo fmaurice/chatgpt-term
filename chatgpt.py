@@ -38,8 +38,6 @@ def chatGPT(text: str, debug_mode: bool = False) -> str:
         output = response['error']['message']
     else:
         output = response['choices'][0]['message']['content']
-        output = output.replace("\n", "")
-
     return output
 
 
